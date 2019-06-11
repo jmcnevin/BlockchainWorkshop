@@ -4,5 +4,5 @@
 
 ```bash
 $ npm install
-$ npm run generate
+$ npm run generate-and-save
 ```
