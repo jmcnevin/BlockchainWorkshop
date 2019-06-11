@@ -11,7 +11,7 @@
     "truffle-hdwallet-provider": "^1.0.10"
   },
   "scripts": {
-    "generate": "bip39-cli generate > .temp && bip39-cli accounts -c 1 \"`cat .secret`\" | cut -f1 -d ' ' >> .temp && cat .temp && rm .temp",
+    "generate": "bip39-cli generate > .temp && bip39-cli accounts -c 1 \"`cat .temp`\" | cut -f1 -d ' ' >> .temp && cat .temp && rm .temp",
     "generate-and-save": "bip39-cli generate > .secret && npm run --silent save-account",
     "save-account": "npm run --silent show-account > .account",
     "show-account": "bip39-cli accounts -c 1 \"`cat .secret`\" | cut -f1 -d ' '",
