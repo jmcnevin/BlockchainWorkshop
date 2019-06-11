@@ -3,5 +3,6 @@
 ## Account Setup
 
 ```bash
+$ npm install
 $ npm run generate
 ```
