@@ -1,0 +1,27 @@
+{
+  "name": "blockchainworkshop",
+  "version": "1.0.0",
+  "description": "Blockchain Workshop",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bip39-cli": "^0.4.0",
+    "openzeppelin-solidity": "^2.3.0",
+    "qrcode": "^1.3.3",
+    "truffle-hdwallet-provider": "^1.0.10"
+  },
+  "scripts": {
+    "generate": "bip39-cli generate > .temp && bip39-cli accounts -c 1 \"`cat .temp`\" | cut -f1 -d ' ' >> .temp && cat .temp && rm .temp",
+    "generate-and-save": "bip39-cli generate > .secret && npm run --silent save-account",
+    "save-account": "npm run --silent show-account > .account",
+    "show-account": "bip39-cli accounts -c 1 \"`cat .secret`\" | cut -f1 -d ' '",
+    "show-qrcode": "qrcode `cat .account`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.optum.com/Blockchain-Platform/BlockchainWorkshop.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
