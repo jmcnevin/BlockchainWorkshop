@@ -83,8 +83,7 @@ module.exports = {
           mnemonic,
           `https://rinkeby.infura.io/v3/32f3812248ef421090b309af62918f43`
         ),
-      network_id: 4,
-      gas: 4612388
+      network_id: 4
     }
   },
 
