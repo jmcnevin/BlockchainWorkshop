@@ -16,7 +16,8 @@
     "generate-and-save": "bip39-cli generate > .secret && npm run --silent save-account",
     "save-account": "npm run --silent show-account > .account",
     "show-account": "bip39-cli accounts -c 1 \"`cat .secret`\" | cut -f1 -d ' '",
-    "show-qrcode": "qrcode `cat .account`"
+    "show-qrcode": "qrcode `cat .account`",
+    "gen-qrcode": "qrcode `cat .account` -o qrcode.png"
   },
   "repository": {
     "type": "git",

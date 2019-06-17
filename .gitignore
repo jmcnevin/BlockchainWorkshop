@@ -63,3 +63,5 @@ typings/
 .secret
 .account
 .temp
+qrcode.png
+.DS_Store
