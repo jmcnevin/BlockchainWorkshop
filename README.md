@@ -1,4 +1,6 @@
-# Blockchain Workshop
+![hot potato](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BakedPotatoWithButter.jpg/313px-BakedPotatoWithButter.jpg)
+
+# Dev Days 2019 Blockchain Workshop
 
 ## Account Setup
 
