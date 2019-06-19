@@ -9,6 +9,6 @@ $ npm run generate-and-save
 
 ## Deployed Contracts (rinkeby)
 
-| Contract | Address |
-| -------- | ------- |
-| HotPotato | `0x9aF373da1d75Ad1ed3ad6362fcf9Af6f23388b8a` |
+| Contract  | Address                                      |
+| --------- | -------------------------------------------- |
+| HotPotato | `0x96A8AF33f03b928B4824e88A8392fd33ea48a08C` |

@@ -4,7 +4,7 @@ contract("HotPotato", function(accounts) {
   it("should deploy", async () => {
     hp = await HotPotato.new("Joe");
     assert.equal(await hp.owner(), accounts[0]);
-    assert.equal(await hp.players("Joe"), accounts[0]);
+    assert.equal(await hp.playerNamesToAddresses("Joe"), accounts[0]);
     assert.equal(await hp.holder(), "Joe");
   });
 
@@ -59,7 +59,7 @@ contract("HotPotato", function(accounts) {
 
     // valid
     await hp.registerPlayer("Jane", { from: accounts[1] });
-    assert.equal(await hp.players("Jane"), accounts[1]);
+    assert.equal(await hp.playerNamesToAddresses("Jane"), accounts[1]);
 
     // try to register second name
     try {
