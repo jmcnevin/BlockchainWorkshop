@@ -65,3 +65,4 @@ typings/
 .temp
 qrcode.png
 .DS_Store
+*.disabled
