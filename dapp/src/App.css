@@ -1,0 +1,35 @@
+.app {
+  text-align: center;
+  margin: 20px;
+  font-size: calc(10px + 2vmin);
+}
+
+#title {
+  color: red;
+  font-size: 75px;
+}
+
+#App-logo {
+  margin-left: 25px;
+  animation: App-logo-spin infinite 1.5s linear;
+  height: 7.5vmin;
+  animation-direction: normal;
+}
+
+.body {
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.list {
+  margin-top: 15%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
