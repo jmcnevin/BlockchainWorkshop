@@ -8,7 +8,7 @@ contract HotPotato is Ownable {
   uint256 public gameEndAt;
   bool public gameStarted;
   address payable _winnerAddr;
-  string _winnerName;
+  string public winnerName;
   uint256 _oldBalance; // prevent race condition
   mapping(string => address) public playerNamesToAddresses;
   mapping(address => string) public playerAddressesToNames;
@@ -72,7 +72,7 @@ contract HotPotato is Ownable {
     _oldBalance = address(this).balance;
     holder = _recipientName;
     _winnerAddr = msg.sender;
-    _winnerName = playerAddressesToNames[msg.sender];
+    winnerName = playerAddressesToNames[msg.sender];
 
     emit PotatoThrown(_recipientName, msg.value);
   }
