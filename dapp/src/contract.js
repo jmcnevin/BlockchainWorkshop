@@ -1,6 +1,9 @@
 import web3 from "./web3";
 
-// const address = '0x96A8AF33f03b928B4824e88A8392fd33ea48a08C'
+// rinkeby address, change before class
+// const address = '0x8A434222Eaf08A1dAC39C7c6DEFBf247A529482e'
+
+// dev address, for ganache
 const address = "0x7B89c75cc2AF910CA62A384386a7b77eEe7b1139";
 
 const abi = [
