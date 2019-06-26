@@ -28,8 +28,10 @@ class App extends Component {
       status= 'The game has not started yet';
     }else if (this.state.gamestart==true){
       status = 'The game has started !!!';
-    }else {
+    }else if (this.state.gameover==true) {
       status ='The game has ended';
+    }else {
+      status = ''
     }
     this.setState({playercount,holder,playername,gamestart,gameover,status});
   }
