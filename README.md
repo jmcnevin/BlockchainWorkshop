@@ -11,6 +11,8 @@ $ npm run generate-and-save
 
 ## Deployed Contracts (rinkeby)
 
-| Contract  | Address                                      |
-| --------- | -------------------------------------------- |
-| HotPotato | `0x96A8AF33f03b928B4824e88A8392fd33ea48a08C` |
+| Contract      | Address                                      |
+| ------------- | -------------------------------------------- |
+| HotPotato     | `0x8A434222Eaf08A1dAC39C7c6DEFBf247A529482e` |
+| SimpleStorage | `0xB975EFD5BB366D50DDe81f1056857c5D4CeaA202` |
+| OpioidToken   | `0xaA929ABff5e369AA620873a509e0501664636476` |
