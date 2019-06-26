@@ -1,7 +1,6 @@
 .app {
   text-align: center;
-  margin: 20px;
-  font-size: calc(10px + 2vmin);
+  font-size: 30px;
 }
 
 #title {
@@ -9,20 +8,28 @@
   font-size: 75px;
 }
 
-#App-logo {
+#title-image {
+  height:10vmin;
+}
+
+#logo {
   margin-left: 25px;
-  animation: App-logo-spin infinite 1.5s linear;
-  height: 7.5vmin;
-  animation-direction: normal;
+  animation: App-logo-spin infinite 1s linear;
+  height:2.75vmin;
 }
 
-.body {
-  font-size: 50px;
-  margin-top: 10%;
+#table,th,td{
+  border: 1px solid black;
+  width: 50%;
 }
 
-.list {
-  margin-top: 15%;
+th {
+  height: 50px;
+  color: red;
+}
+
+#status {
+  color: rgb(13, 165, 107);
 }
 
 @keyframes App-logo-spin {
