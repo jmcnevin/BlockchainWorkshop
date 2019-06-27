@@ -1,0 +1,56 @@
+.app {
+  text-align: center;
+  font-size: 30px;
+}
+
+#title {
+  color: red;
+  font-size: 75px;
+}
+
+#title-image {
+  height: 10vmin;
+}
+
+#logo {
+  margin-left: 25px;
+  animation: App-logo-spin infinite 1s linear;
+  height: 2.75vmin;
+}
+
+#player-list {
+  width: 400px;
+  border-collapse: collapse;
+}
+
+#player-list,
+th,
+td {
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+#player-list img {
+  width: 25px;
+  animation: App-logo-spin infinite 1s linear;
+}
+
+#player-list .winner {
+  color: red;
+  font-weight: bold;
+}
+
+#status {
+  color: rgb(13, 165, 107);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
